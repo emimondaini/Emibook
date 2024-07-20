@@ -1,0 +1,23 @@
+/* Aggiungi questi stili nel tuo file CSS */
+.navbar {
+	background-color: #fff; /* Sfondo bianco della navbar */
+}
+
+.navbar-nav .nav-link {
+	color: #000; /* Colore nero del testo dei link nella navbar */
+	margin-left: auto;
+}
+
+input[type="text"] {
+	padding: 10px;
+	border: none;
+	border-radius: 5px;
+}
+
+/* Modifica il comportamento del campo di ricerca nel layout mobile */
+@media (max-width: 767px) {
+	.ml-auto input[type="text"] {
+		width: 100%; /* Rendi il campo di ricerca a larghezza 100% nel layout mobile */
+		text-align: center; /* Allinea il testo al centro nel campo di ricerca */
+	}
+}

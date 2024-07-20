@@ -1,0 +1,18 @@
+.book-page {
+	display: flex;
+	justify-content: center;
+}
+
+.book-column {
+	flex: 1;
+	padding: 16px;
+	display: flex; /* Centra il contenuto verticalmente */
+	flex-direction: column;
+	align-items: center; /* Centra il contenuto verticalmente */
+	text-align: center; /* Centra il testo orizzontalmente */
+}
+
+.comment-column {
+	flex: 1;
+	padding: 16px;
+}

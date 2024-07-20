@@ -1,0 +1,21 @@
+.card-container {
+	background-color: #fff;
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+	max-width: 400px;
+	width: 100%;
+	text-align: center;
+	margin: 0 auto; /* Centra la card nella pagina */
+	margin-top: 20px; /* Spazio sopra la card */
+}
+
+.card-container img {
+	margin-bottom: 20px;
+}
+
+/* Sposta la card sopra la navbar */
+.card-container {
+	z-index: 1; /* Assicura che la card sia sopra la navbar */
+	position: relative;
+}
